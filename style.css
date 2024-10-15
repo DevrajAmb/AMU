@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #676279;
+    font-family: "Fredoka", sans-serif;
+}
+
+.container{
+        width: 100vw;
+        height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box{
+    width: 81vw;
+    height: 90vh;
+    background-color: #2b2738 ;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    gap: 5px;
+}
+
+
+.img{
+width: 50%;
+height: 100%;
+border-radius: 15px;
+background-image: url(./img/ios-14-desert-at-night-2zjysk4lnhvbtchc.jpg);
+background-position: center;
+background-size: cover;
+padding: 10px;
+color: white;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img p{
+    font-size: 30px;
+}
+
+.img button {
+display: flex;
+align-items: center;
+justify-content: center;
+padding-inline: 20px ;
+padding-block: 5px;
+background-color: #64599d9c;
+border: none;
+border-radius: 20px;
+color: white;
+}
+
+.heading{
+    height: 75vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.heading h1{
+    font-weight: 100;
+}
+
+
+
+.info{
+    width: 50%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+}
+
+.info h1{
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.info p{
+    color: #8e8c95;
+    padding-block: 25px;
+}
+
+.info a{
+    color: #8778b0;
+
+}
+
+
+.btn{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 25px;
+}
+
+
+.btn1{
+    width: 14vw;
+    height: 7vh ;
+    background-color: #3b364c;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.btn3{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.btn4{
+    width: 450px;
+    height: 7vh;
+    background-color: #3b364c;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.agree p{
+    padding-top: 5px ;
+    display: flex;
+    align-items: center;
+}
+
+.btn5{
+    width: 450px;
+    height: 7vh;
+    background-color: #6e54b5;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.btn5 p{
+    color: white;
+    
+}
+
+.product{
+    display: flex;
+    gap: 25px;
+}
+
+.product button{
+    width: 14vw;
+    height: 7vh ;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product button svg{
+    width: px;
+}
